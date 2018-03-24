@@ -13,6 +13,54 @@
 */
 
 @import url("../archi/style.css");
- 
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
+/* home - whatwedo */
+#whatwedo_2 p {
+  margin-bottom: 122px;
+}
+#whatwedo_3 p {
+  margin-bottom: 145px;
+}
+/* home - OUR PROCESS  */
+#tab-616 p {
+  text-align: center;
+}
+#tab-617 p {
+  text-align: right;
+}
+/* our_services */
+#our_services .item p {
+  min-height: 90px;
+}
+#our_services .item:nth-child(1) p,
+#our_services .item:nth-child(2) p,
+#our_services .item:nth-child(3) p {
+  min-height: 115px;
+}
+@media only screen and (max-width: 992px) {
+  /* home - whatwedo */
+  #whatwedo_2 p {
+    margin-bottom: 168px;
+  }
+  #whatwedo_3 p {
+    margin-bottom: 214px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* home - whatwedo */
+  #whatwedo_2 p {
+    margin-bottom: inherit;
+  }
+  #whatwedo_3 p {
+    margin-bottom: inherit;
+  }
+  /* home - OUR PROCESS  */
+  #tab-615 p {
+    text-align: center;
+  }
+  #tab-617 p {
+    text-align: center;
+  }
+}
